@@ -5,7 +5,16 @@
 }
 
 .mobile_br{
-	display: none;
+	display: none !important;
+}
+.desk_br{
+	display: block !important;
+}
+.mobile_span{
+	display: none !important;
+}
+.desk_span{
+	display: inline !important;
 }
 
 .ExternalClass {
@@ -676,7 +685,16 @@ button.es-button {
 		display: block;
 	}
 	.mobile_br{
-		display: block;
+		display: block !important;
+	}
+	.desk_br{
+		display: none !important;
+	}
+	.mobile_span{
+		display: inline !important;
+	}
+	.desk_span{
+		display: none !important;
 	}
 	.img_logo_main{
 		display: block;
